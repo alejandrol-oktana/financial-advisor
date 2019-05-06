@@ -1,0 +1,25 @@
+#risk-labels {
+  display: flex;
+  width: 100%;
+
+  @media (min-width: 1024px) {
+    padding: 0 10%;
+  }
+}
+
+#risk-label-high {
+  margin-left: auto;
+}
+
+.risk-levels>li:hover {
+  color: red;
+}
+
+.button-group {
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.button-group>li{
+  margin: 3px!important;
+}

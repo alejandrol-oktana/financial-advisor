@@ -1,0 +1,26 @@
+@media (max-width: 767px) {
+  table.stack {
+    display: flex;
+
+    thead {
+      display: inline-flex;
+      width: 30%;
+      padding-top: 45px;
+      font-size: 73%;
+      line-height: 200%;
+
+      th:first-child {
+        display: none;
+      }
+    }
+
+    tbody {
+      display: inline-flex;
+      width: 70%;
+
+      tr:last-child {
+        width: 100%;
+      }
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.stroke-segment {
+  transition: all ease-in-out 500ms;
+}
+
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+.stroke-segment-label {
+  font-size: 0.65em;
+  opacity: 1;
+  animation: fadein 500ms;
+  fill: white;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.3);
+}
